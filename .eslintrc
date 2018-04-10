@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "camelcase": 0,
+    "key-spacing": 0,
+    "no-multi-spaces": 0,
+    "no-use-before-define": 0,
+    "no-underscore-dangle": 0,
+    "strict": 0,
+    "no-empty": 0,
+    "no-unused-vars": [ 0, { "vars": "all", "varsIgnorePattern": ".*n.*" } ],
+    "no-empty-label": 0,
+    "no-labels": 0,
+    "no-undef": 2,
+  },
+  "globals": {
+    "inlets": true,
+    "outlets": true,
+    "outlet": false,
+    "post": false,
+    "Buffer": false,
+    "Dict": false,
+    "Task": false,
+    "arrayfromargs":  false,
+    "messagename": false
+  }
+}
